@@ -19,7 +19,7 @@ export default function Sucesso() {
       return;
     }
 
-    fetch(`http://www.mentoriaraiz.com.br/api/pagamento/${paymentId}`)
+    fetch(`https://www.mentoriaraiz.com.br/api/pagamento/${paymentId}`)
       .then((res) => {
         if (!res.ok) throw new Error("Erro ao consultar pagamento");
         return res.json();
