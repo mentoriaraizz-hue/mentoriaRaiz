@@ -83,7 +83,7 @@ export default function Precheckout() {
     }
 
     try {
-      const res = await fetch("http://www.mentoriaraiz.com.br/api/inscricao", {
+      const res = await fetch("https://www.mentoriaraiz.com.br/api/inscricao", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
