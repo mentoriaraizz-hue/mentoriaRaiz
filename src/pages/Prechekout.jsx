@@ -404,7 +404,7 @@ export default function Precheckout() {
                   
                   <button
                     type="submit"
-                    className="w-full bg-yellow-600 text-white p-2 mb-7 rounded"
+                    className="w-full bg-yellow-600 text-white p-2 mb-18 rounded"
                   >
                     Finalizar inscrição
                   </button>
