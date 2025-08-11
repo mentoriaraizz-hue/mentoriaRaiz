@@ -261,7 +261,7 @@ export default function Precheckout() {
               }}
             >
               {/* Form Individual */}
-              <div className="w-[49.5%] px-4">
+              <div className="w-[49.5%] px-4 overflow-auto">
                 <h2 className="text-xl font-semibold mb-4">
                   Preencha seus dados:
                 </h2>
@@ -328,7 +328,7 @@ export default function Precheckout() {
               </div>
 
               {/* Form Sócios */}
-              <div className="w-1/2 pl-4">
+              <div className="w-1/2 pl-4 overflow-auto">
                 <h2 className="text-xl font-semibold mb-4">
                   Preencha os dados dos sócios:
                 </h2>
