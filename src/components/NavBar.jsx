@@ -27,7 +27,7 @@ export default function Navbar(){
                  <li><Link to="/" onClick={()=>setOpenBtnMenu(false)}>Home</Link></li>
               <li><Link smooth to="/#mentora" onClick={()=>setOpenBtnMenu(false)}>Mentora</Link></li>
               <li><Link smooth to="/#comoFunciona" onClick={()=>setOpenBtnMenu(false)}>Como funciona</Link></li>
-              <li><Link smooth to="/#FAQ" onClick={()=>setOpenBtnMenu(false)}>FQA</Link></li>
+              <li><Link smooth to="/#FAQ" onClick={()=>setOpenBtnMenu(false)}>FAQ</Link></li>
           </ul>
            </div>
           </nav>

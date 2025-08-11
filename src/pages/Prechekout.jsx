@@ -188,10 +188,10 @@ export default function Precheckout() {
 
         <div className="pro-scale scale-[.9] mt-16 border-1 border-yellow-600 p-8 rounded-[6px] font-light text-center">
           <p>
-            <span className="font-semibold">Promoção:</span> de
-            <span className="font-medium line-through">R$ 3.597</span> por
-            <span className="font-medium">R$ 2.997</span> para os
-            <span className="text-[18px] font-medium">
+            <span className="font-semibold">Promoção: </span> de
+            <span className="font-medium line-through">R$ 3.597</span> por 
+            <span className="font-medium"> R$ 2.997</span> para os 
+            <span className="text-[18px] font-medium"> 
               5 primeiros inscritos
             </span>
           </p>
