@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Allow: /*.css$
+Allow: /*.js$
+
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /private/
+Disallow: /admin/
+Disallow: /*?s=
+Disallow: /*utm_*
+
+
+Sitemap: https://www.mentoriaraiz.com.br/sitemap.xml

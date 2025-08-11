@@ -186,7 +186,7 @@ export default function Home() {
             <img
            
             className="h-[70%] sm:h-[500px] rounded-4xl"
-            src="mentora.jpeg"
+            src="mentora.webp"
             alt="mentora thalyta"
           />
          
@@ -291,7 +291,7 @@ export default function Home() {
 
           <Accordion effect="fade-left" delay="350" />
 
-          <a
+          {/* <a
             data-aos="fade-right"
             data-aos-delay="150"
             href="#"
@@ -303,7 +303,7 @@ export default function Home() {
               alt="icone do WhatsApp"
             />
             <span>Para mais duvidas, acesse aqui.</span>
-          </a>
+          </a> */}
         </section>
         <section
           id="chamado"
@@ -346,7 +346,7 @@ export default function Home() {
               <div className="flex flex-row gap-1.5 items-center justify-center w-[350px]">
                 <img
                   className="w-[25px]"
-                  src="Planner.png"
+                  src="Planner.webp"
                   alt="Data de início"
                 />
                 <p className="font-medium">Início: 11 de setembro</p>
