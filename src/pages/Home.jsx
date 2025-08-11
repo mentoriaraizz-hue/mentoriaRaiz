@@ -190,7 +190,7 @@ export default function Home() {
           
             <img
            
-            className="h-[500px] w- sm:h-[500px] w-[350px]  rounded-4xl"
+            className="max-h-[500px] w- sm:h-[500px] max-w-[450px] w-full object-contain rounded-4xl"
             src="mentora.webp"
             alt="mentora thalyta"
           />
