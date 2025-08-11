@@ -2,8 +2,8 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "../components/NavBar";
 import Home from "./Home.jsx";
 import Precheckout from "./Prechekout.jsx";
-import AdminLogin from "./adminlogin.jsx";
-import AdminDashboard from "./admin.jsx";
+import AdminLogin from "./Adminlogin.jsx";
+import AdminDashboard from "./Admin.jsx";
 import PrivateRoute from "../components/PrivateRouter.jsx";
 
 function App() {
