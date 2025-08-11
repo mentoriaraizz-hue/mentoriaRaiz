@@ -215,7 +215,7 @@ export default function Precheckout() {
         }`}
       >
         <div
-          className={`bg-white text-black overflow-auto rounded-lg p-8 w-[80%] h-[85%] max-w-md relative transform transition-all duration-500 ${
+          className={`bg-white text-black overflow-hidden rounded-lg p-8 w-[80%] h-[85%] max-w-md relative transform transition-all duration-500 ${
             openForm ? "scale-100" : "scale-95"
           }`}
         >
@@ -333,7 +333,7 @@ export default function Precheckout() {
                   Preencha os dados dos sócios:
                 </h2>
                 <form
-                  className="space-y-4 px-4 overflow-y-auto h-[80%]"
+                  className="space-y-4 px-4 overflow-y-auto h-[90%]"
                   onSubmit={handleSubmit}
                 >
                   <input
