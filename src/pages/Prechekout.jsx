@@ -333,7 +333,7 @@ export default function Precheckout() {
                   Preencha os dados dos sócios:
                 </h2>
                 <form
-                  className="space-y-4 px-4 overflow-y-auto h-[90%]"
+                  className="space-y-4 px-4 overflow-y-auto h-[80%]"
                   onSubmit={handleSubmit}
                 >
                   <input
@@ -404,7 +404,7 @@ export default function Precheckout() {
                   
                   <button
                     type="submit"
-                    className="w-full bg-yellow-600 text-white p-2 rounded"
+                    className="w-full bg-yellow-600 text-white p-2 mb-7 rounded"
                   >
                     Finalizar inscrição
                   </button>
