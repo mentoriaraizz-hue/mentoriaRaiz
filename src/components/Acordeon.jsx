@@ -57,7 +57,7 @@ export default function Accordion(props) {
     },
     {
       title: "5. Quantos encontros teremos?",
-      content: "Serão encontros individuais quinzenais e mensais em grupo durante os 3 meses de mentoria (setembro a dezembro), além de grupo exclusivo e desafios mensais.",
+      content: "Serão 3 encontros individuais mensais e 5 encontros mensais em grupo durante os 3 meses de mentoria (setembro a dezembro), além de grupo exclusivo e desafios mensais.",
     },
     {
       title: "6. É uma mentoria em grupo ou individual?",

@@ -102,9 +102,10 @@ export default function Home() {
         </section>
         <section
           id="mentora"
-          className=" flex flex-col sm:flex-row justify-around items-center sm:gap-[7em] pt-20 pb-9  bg-gradient-to-br from-[#350e0e] via-[#630303] to-[#350e0e]"
+          className=" flex flex-col items-center  pt-20 pb-9  bg-gradient-to-br from-[rgb(53,14,14)] via-[#630303] to-[#350e0e]"
         >
-          <div className=" sm:w-[50%] px-2.5">
+         <div className="flex flex-col sm:flex-row justify-around items-center sm:gap-[7em]">
+           <div className=" sm:w-[50%] px-2.5">
             <h3
               data-aos="fade-right"
               data-aos-delay="150"
@@ -189,7 +190,31 @@ export default function Home() {
             src="mentora.webp"
             alt="mentora thalyta"
           />
-         
+         </div>
+         <div className="flex flex-col flex-wrap items-center">
+              <h2 className="text-3xl font-semibold m-6 mb-7" data-aos="fade-right"
+                data-aos-delay="450">Trajetoria da mentora</h2>
+            
+              <div className="flex flex-wrap my-5"
+              delay="850">
+                 <CardsMenores
+              effect="fade-left"
+              delay="850"
+              tiltle="10 anos de experiência na área jurídica e no empreendedorismo"/>
+               <CardsMenores
+              effect="fade-left"
+              delay="850"
+              tiltle="Advogada e consultora de empresas e empresários"/>
+               <CardsMenores
+              effect="fade-left"
+              delay="850"
+              tiltle="Advogada no universo corporativo, no setor jurídico comercial de empresa de benefícios e no setor jurídico consultivo de Instituição Bancaria"/>
+               <CardsMenores
+              effect="fade-left"
+              delay="850"
+              tiltle="Formação acadêmica e docente pela Escola da Magistratura do Estado do Rio de Janeiro (EMERJ)"/>
+              </div>
+         </div>
         </section>
 
         <section

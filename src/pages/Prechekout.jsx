@@ -123,7 +123,7 @@ export default function Precheckout() {
             Preencha seus dados com atenção e finalize sua inscrição para
             garantir:
           </p>
-          <li className="flex items-center gap-1.5 mb-2"><img className="w-[30px]" src="check.png" alt="" /> Encontros ao vivo quinzenais com Thalyta Eloah.</li>
+          <li className="flex items-center gap-1.5 mb-2"><img className="w-[30px]" src="check.png" alt="" />  3 encontros individuais mensais e 5 encontros mensais em grupo com Thalyta Eloah.</li>
           <li className="flex items-center gap-1.5 mb-2"><img className="w-[30px]" src="check.png" alt="" /> Acesso ao grupo exclusivo de mentorados(as).</li>
           <li className="flex items-center gap-1.5 mb-2"><img className="w-[30px]" src="check.png" alt="" /> Materiais práticos e exercícios de implementação.</li>
           <li className="flex items-center gap-1.5 mb-2"><img className="w-[30px]" src="check.png" alt="" /> Desafios mensais com foco em progresso real.</li>
