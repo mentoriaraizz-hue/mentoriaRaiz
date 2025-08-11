@@ -322,7 +322,7 @@ export default function Home() {
              
               <li className="text-[14px]">- Construção de autoridade e marca pessoal;</li>
              
-              <li className="text-[14px]">- Sair de “empreender para sobreviver” para “empreender para prosperar”</li> 
+              <li className="text-[14px]">- Sair de “empreender para sobreviver” para “empreender para prosperar”.</li> 
             </ul>
            </div>
 
@@ -336,7 +336,7 @@ export default function Home() {
              
               <li className="text-[14px]">- Planejamento mensal, semestral e anual;</li>
              
-              <li className="text-[14px]">- Definição de metas realistas.”</li> 
+              <li className="text-[14px]">- Definição de metas realistas.</li> 
             </ul>
            </div>
 
@@ -350,7 +350,7 @@ export default function Home() {
              
               <li className="text-[14px]">- Como calcular valor-hora e custos fixos/variáveis;</li>
              
-              <li className="text-[14px]">- Definir preços justos e lucrativos para o seu negócio, considerando custos, valor percebido e metas de crescimento.”</li> 
+              <li className="text-[14px]">- Definir preços justos e lucrativos para o seu negócio, considerando custos, valor percebido e metas de crescimento.</li> 
             </ul>
            </div>
 
@@ -364,7 +364,7 @@ export default function Home() {
              
               <li className="text-[14px]">- Criação de propostas e apresentações de alto impacto;</li>
              
-              <li className="text-[14px]">- Criar e manter uma base de clientes fiéis, utilizando técnicas de comunicação assertiva.”</li> 
+              <li className="text-[14px]">- Criar e manter uma base de clientes fiéis, utilizando técnicas de comunicação assertiva.</li> 
             </ul>
            </div>
 

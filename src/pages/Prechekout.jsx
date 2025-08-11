@@ -303,7 +303,7 @@ export default function Precheckout() {
                     value={profissao}
                     onChange={(e) => setProfissao(e.target.value)}
                     className="w-full border p-2"
-                    placeholder="profissao"
+                    placeholder="Profissão"
                     required
                   ></input>
                   {["empreendedor", "empresário"].includes(
@@ -384,7 +384,7 @@ export default function Precheckout() {
                   />
                   <input type="text"
                     value={profissaoSocio}
-                    placeholder="profissão"
+                    placeholder="Profissão"
                     onChange={(e) => setProfissaoSocio(e.target.value)}
                     className="w-full border p-2"
                     required
@@ -397,8 +397,8 @@ export default function Precheckout() {
                       type="text"
                       placeholder="Nome da empresa"
                       className="w-full border p-2"
-                      value={empresa}
-                      onChange={(e) => setEmpresa(e.target.value)}
+                      value={empresaSocio}
+                      onChange={(e) => setEmpresaSocio(e.target.value)}
                     />
                   )}
                   
