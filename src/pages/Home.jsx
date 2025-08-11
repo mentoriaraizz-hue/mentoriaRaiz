@@ -195,24 +195,28 @@ export default function Home() {
               <h2 className="text-3xl font-semibold m-6 mb-7" data-aos="fade-right"
                 data-aos-delay="450">Trajetoria da mentora</h2>
             
-              <div className="flex flex-wrap my-5"
+              <div className="flex flex-wrap justify-around text-left my-5 "
               delay="850">
                  <CardsMenores
               effect="fade-left"
               delay="850"
-              tiltle="10 anos de experiência na área jurídica e no empreendedorismo"/>
+              tiltle="+ 10 anos de experiência no Direito e no Empreendedorismo."/>
                <CardsMenores
               effect="fade-left"
               delay="850"
-              tiltle="Advogada e consultora de empresas e empresários"/>
+              tiltle="Advogada e consultora estratégica de empresas e empresários."/>
                <CardsMenores
               effect="fade-left"
               delay="850"
-              tiltle="Advogada no universo corporativo, no setor jurídico comercial de empresa de benefícios e no setor jurídico consultivo de Instituição Bancaria"/>
+              tiltle="Atuação no setor corporativo, incluindo jurídico-comercial de empresa de benefícios e jurídico-consultivo de instituição bancária."/>
                <CardsMenores
               effect="fade-left"
               delay="850"
-              tiltle="Formação acadêmica e docente pela Escola da Magistratura do Estado do Rio de Janeiro (EMERJ)"/>
+              tiltle="Formação acadêmica e docente pela EMERJ – Escola da Magistratura do Estado do Rio de Janeiro."/>
+               <CardsMenores
+              effect="fade-left"
+              delay="850"
+              tiltle="Especialista em transformar conhecimento jurídico e visão de negócios em resultados reais!"/>
               </div>
          </div>
         </section>
@@ -279,13 +283,13 @@ export default function Home() {
             <CardsMenores
               effect="fade-left"
               delay="650"
-              tiltle="Encontros individuais e virtuais, realizados quinzenalmente"
+              tiltle="Encontros individuas virtuais, realizados mensalmente"
               text="com espaço para tratarmos casos e situações específicas do seu negócio"
             />
             <CardsMenores
               effect="fade-left"
               delay="750"
-              tiltle="Encontros em grupo e virtuais (ao vivo) realizados mensalmente "
+              tiltle="5 encontros em grupo, que ocorrerão de forma virtual e ao vivo "
               text="com espaço para conteúdo e troca direta"
             />
             <CardsMenores
@@ -301,6 +305,83 @@ export default function Home() {
               text="para manter o foco e gerar progresso"
             />
           </div>
+        </section>
+        <section className="bg-[#420101] flex flex-col items-center   w-[100vw]">
+           <h2 className="text-3xl font-semibold  sm:w-[50ch] text-center mt-8 mb-5">Habilidades e resultados que a Mentoria Raiz vai desbloquear em você:</h2>
+            
+           <div className=" flex flex-wrap justify-center gap-10 mb-14">
+
+             <div className="flex flex-col items-start sm:w-[310px] sm:h-[300px] p-3 pb-6 sm:p-2 bg-gradient-to-br from-[#300202] via-[#530707] to-[#300202] mx-[20px] border-1 border-[rgb(254,195,0,50%)] rounded-3xl pl-3 ">
+
+             <h3 className="text-[20px] sm:text-[20px] font-semibold text-left mt-4 mb-4">
+              Raiz do Negócio — Fundamentos Sólidos para Crescer
+              </h3>
+             <ul className="flex flex-col gap-2 ">
+              <li className="text-[14px]">	- Posicionamento Estratégico, definição de propósito e nicho;</li>
+             
+              <li className="text-[14px]">- Construção de autoridade e marca pessoal;</li>
+             
+              <li className="text-[14px]">- Sair de “empreender para sobreviver” para “empreender para prosperar”:</li> 
+            </ul>
+           </div>
+
+             <div className="flex flex-col items-start sm:w-[310px] sm:h-[300px] p-3 pb-6 sm:p-2 bg-gradient-to-br from-[#300202] via-[#530707] to-[#300202]  border-1 border-[rgb(254,195,0,50%)] rounded-3xl pl-3">
+
+             <h3 className="text-[20px] sm:text-[20px] font-semibold text-left mt-4 mb-4">
+             Estrutura & Planejamento Estratégico
+              </h3>
+             <ul className="flex flex-col gap-2 ">
+              <li className="text-[14px]">- Organização financeira;</li>
+             
+              <li className="text-[14px]">- Planejamento mensal, semestral e anual;</li>
+             
+              <li className="text-[14px]">- Definição de metas realistas.”:</li> 
+            </ul>
+           </div>
+
+             <div className="flex flex-col items-start sm:w-[310px] sm:h-[300px] p-3 pb-6 sm:p-2 bg-gradient-to-br from-[#300202] via-[#530707] to-[#300202]  border-1 border-[rgb(254,195,0,50%)] rounded-3xl pl-3">
+
+             <h3 className="text-[20px] sm:text-[20px] font-semibold text-left mt-4 mb-4">
+              Precificação Inteligente & Sustentável
+              </h3>
+             <ul className="flex flex-col gap-2 ">
+              <li className="text-[14px]">	- Aprendendo a cobrar sem medo e sem culpa;</li>
+             
+              <li className="text-[14px]">- Como calcular valor-hora e custos fixos/variáveis;</li>
+             
+              <li className="text-[14px]">- Definir preços justos e lucrativos para o seu negócio, considerando custos, valor percebido e metas de crescimento.”:</li> 
+            </ul>
+           </div>
+
+             <div className="flex flex-col items-start sm:w-[310px] sm:h-[300px] p-3 pb-6 sm:p-2 bg-gradient-to-br from-[#300202] via-[#530707] to-[#300202]  border-1 border-[rgb(254,195,0,50%)] rounded-3xl pl-3">
+
+             <h3 className="text-[20px] sm:text-[20px] font-semibold text-left mt-4 mb-4">
+              Estratégias de Marketing & Prospecção Efetiva
+              </h3>
+             <ul className="flex flex-col gap-2 ">
+              <li className="text-[14px]">	- Como atrair clientes de forma estratégica;</li>
+             
+              <li className="text-[14px]">- Criação de propostas e apresentações de alto impacto;</li>
+             
+              <li className="text-[14px]">- Criar e manter uma base de clientes fiéis, utilizando técnicas de comunicação assertiva.”:</li> 
+            </ul>
+           </div>
+
+             <div className="flex flex-col items-start sm:w-[310px] sm:h-[300px] p-3 pb-6 sm:p-2 bg-gradient-to-br from-[#300202] via-[#530707] to-[#300202]  border-1 border-[rgb(254,195,0,50%)] rounded-3xl pl-3">
+
+             <h3 className="text-[20px] sm:text-[20px] font-semibold text-left mt-4 mb-4">
+              Realidade do Mercado — Crescimento & Blindagem
+              </h3>
+             <ul className="flex flex-col gap-2 ">
+              <li className="text-[14px]">	- Gestão de crises, tomada de decisão e disciplina para sustentar resultados consistentes;</li>
+             
+              <li className="text-[14px]">- Blindagem jurídica e prevenção de problemas;</li>
+             
+              <li className="text-[14px]">- Como manter consistência e escalar de forma sustentável.</li> 
+            </ul>
+           </div>
+
+           </div>
         </section>
         <section
           id="FAQ"

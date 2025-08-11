@@ -3,7 +3,7 @@ import React from "react";
  function CardsMenores(props) {
   return (
     <>
-      <div data-aos={props.effect} data-aos-delay={props.delay} className="flex flex-row items-start justify-center gap-3 text-left w-[280px]">
+      <div data-aos={props.effect} data-aos-delay={props.delay} className="flex flex-row items-start justify-center gap-1 text-left w-[280px]">
           <img src="./Done.png" alt="feito" className="" />
 
         <div>

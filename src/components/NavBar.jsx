@@ -8,13 +8,13 @@ export default function Navbar(){
     return(
         <>
           <nav className={`fixed flex items-center justify-around gap-[15em] top-0 z-10 w-full border-b border-yellow-600/20 bg-black/95 backdrop-blur supports-[backdrop-filter]:bg-black/60 ${openBtnmenu ? 'border-b-0' : 'borde-1'} `}>
-           <div className="flex items-center justify-around gap-[12em] w-[95%] sm:justify-around sm:gap-[15em]">
+           <div className="flex items-center justify-around gap-[12em] w-[95%] sm:justify-around sm:gap-[15em] ">
              <Link to="/"><img className="w-[120px]" src="logo_nav.png" alt="mentoria Raiz"/></Link>
             <ul className=" hidden sm:gap-4  sm:flex ">
               <li><Link to="/">Home</Link></li>
               <li><Link smooth to="/#mentora">Mentora</Link></li>
               <li><Link smooth to="/#comoFunciona">Como funciona</Link></li>
-              <li><Link smooth to="/#FAQ">FQA</Link></li>
+              <li><Link smooth to="/#FAQ">FAQ</Link></li>
             </ul>
             <Link className="hidden transition-all duration-500 ease-in-out 
              bg-gradient-to-r from-yellow-700 to-yellow-500 

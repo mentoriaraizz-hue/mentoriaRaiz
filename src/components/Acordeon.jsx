@@ -4,7 +4,7 @@ const AccordionItem = ({ title, content, isOpen, onClick }) => {
   const contentRef = useRef(null);
 
   return (
-    <div className="bg-[#330808] text-white">
+    <div className="bg-[#330808] text-white z-0">
       <button
         onClick={onClick}
         className="flex justify-between items-center w-full px-2 py-3 text-left  text-white font-medium text-sm md:text-[20px] transition-all cursor-pointer"
@@ -41,7 +41,7 @@ export default function Accordion(props) {
   const items = [
     {
       title: "1. Para quem é a Mentoria Raiz?",
-      content: "Para empreendedores(as) que querem estruturar seus negócios com verdade, estratégia e maturidade. É ideal para quem quer sair da estagnação ou pra quem está começando algo novo e quer construir uma jornada sólida e coerente com seus valores. Essa mentoria não é só para advogados!",
+      content: "Para quem trabalha pra si próprio! Essa mentoria é para todos os empreendedores e autônomos que querem estruturar seus negócios com verdade, estratégia e maturidade. É ideal para quem quer sair da estagnação ou pra quem está começando algo novo e quer construir uma jornada sólida e coerente com seus valores. Essa mentoria não é só para advogados!",
     },
     {
       title: "2. Preciso estar começando agora para participar?",
@@ -61,7 +61,7 @@ export default function Accordion(props) {
     },
     {
       title: "6. É uma mentoria em grupo ou individual?",
-      content: "É uma mentoria mista, realizada mensalmente com o grupo, mas quinzenalmente de forma individual para proporcionar mais momentos de escuta individual e clareza no direcionamento das questões reais do seu negócio. Você terá a oportunidade de ser acompanhado(a) de forma próxima e personalizada, mesmo em grupo.",
+      content: "É uma mentoria realizada em grupo, mas com um acompanhamento mensal individual para proporcionar momentos de escuta individual e clareza no direcionamento das questões reais do seu negócio. Você terá a oportunidade de ser acompanhado(a) de forma próxima e personalizada, mesmo em grupo.",
     },
     {
       title: "7. Qual o valor da mentoria?",
@@ -84,7 +84,7 @@ export default function Accordion(props) {
 
   return (
     
-      <div data-aos={props.effect} data-aos-delay={props.delay} className="relative flex flex-col md:flex-row max-w-6xl  gap-x-15 my-8">
+      <div data-aos={props.effect} data-aos-delay={props.delay} className="relative flex flex-col md:flex-row max-w-6xl  gap-x-15 my-8 z-0">
         {/* Coluna Esquerda */}
         <div className="flex-1 space-y-3 relative z-10">
           {colEsquerda.map((item, index) => (
