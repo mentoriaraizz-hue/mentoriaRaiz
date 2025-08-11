@@ -215,7 +215,7 @@ export default function Precheckout() {
         }`}
       >
         <div
-          className={`bg-white text-black rounded-lg p-8 w-[80%] h-[85%] max-w-md relative transform transition-all duration-500 ${
+          className={`bg-white text-black overflow-auto rounded-lg p-8 w-[80%] h-[85%] max-w-md relative transform transition-all duration-500 ${
             openForm ? "scale-100" : "scale-95"
           }`}
         >
