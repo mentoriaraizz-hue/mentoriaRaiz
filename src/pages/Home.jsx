@@ -200,7 +200,7 @@ export default function Home() {
                  <CardsMenores
               effect="fade-left"
               delay="850"
-              tiltle="+ 10 anos de experiência no Direito e no Empreendedorismo."/>
+              tiltle="+ 10 anos de experiência no Direito e no Empreendedorismo. Especialista em transformar conhecimento jurídico e visão de negócios em resultados reais!"/>
                <CardsMenores
               effect="fade-left"
               delay="850"
@@ -213,10 +213,7 @@ export default function Home() {
               effect="fade-left"
               delay="850"
               tiltle="Formação acadêmica e docente pela EMERJ – Escola da Magistratura do Estado do Rio de Janeiro."/>
-               <CardsMenores
-              effect="fade-left"
-              delay="850"
-              tiltle="Especialista em transformar conhecimento jurídico e visão de negócios em resultados reais!"/>
+           
               </div>
          </div>
         </section>
