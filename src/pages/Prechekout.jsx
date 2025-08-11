@@ -265,7 +265,7 @@ export default function Precheckout() {
                 <h2 className="text-xl font-semibold mb-4">
                   Preencha seus dados:
                 </h2>
-                <form className="space-y-4" onSubmit={handleSubmit}>
+                <form className="space-y-4 overflow-hidden" onSubmit={handleSubmit}>
                   <input
                     type="text"
                     placeholder="Nome completo"
@@ -328,7 +328,7 @@ export default function Precheckout() {
               </div>
 
               {/* Form Sócios */}
-              <div className="w-1/2 pl-4 overflow-auto">
+              <div className="w-1/2 pl-4 overflow-hidden">
                 <h2 className="text-xl font-semibold mb-4">
                   Preencha os dados dos sócios:
                 </h2>
