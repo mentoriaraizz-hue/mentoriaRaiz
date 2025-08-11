@@ -7,7 +7,7 @@ export default function AdminDashboard() {
   const token = localStorage.getItem("adminToken");
 
   function carregarDados(searchTerm = "") {
-    let url = "http://localhost:5000/api/admin/dashboard";
+    let url = "https://mentoriaraiz-api.onrender.com/api/admin/dashboard";
     if (searchTerm) {
       url += `?search=${encodeURIComponent(searchTerm)}`;
     }

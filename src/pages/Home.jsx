@@ -18,11 +18,11 @@ export default function Home() {
               <h1
                 data-aos="fade-right"
                 data-aos-delay="200"
-                className=" text-2xl font-semibold text-center sm:text-left sm:text-5xl sm:w-[22ch] leading-[1.6em]"
+                className=" text-2xl font-semibold text-center sm:text-left sm:text-5xl sm:w-[25ch] leading-[1.6em]"
               >
                 Empreender com{" "}
                 <span className="bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-transparent">
-                  verdade
+                  propósito
                 </span>{" "}
                 não é utopia
               </h1>
@@ -36,10 +36,14 @@ export default function Home() {
               <p
                 data-aos="fade-right"
                 data-aos-delay="300"
-                className="mb-8 text-[12px] sm:text-lg text-gray-300"
+                className="mb-4 text-[6px] sm:text-lg text-gray-300"
               >
                 Mentoria com Thalyta Eloah
               </p>
+
+                 <div className=" sm:w-[450px] mb-8">
+                    <p className="text-[12px] font-semibold text-left ">A antítese da coragem é a covardia. Você pode se orgulhar do que construiu até hoje, mas o meu objetivo é fazer você ter mais orgulho do seu futuro do que do seu passado. Criei essa mentoria para os inquietos, para os inconformados, para os que se movem e querem protagonizar a transformação que o seu negócio precisa para obter os resultados que você deseja. De que adianta ser rico em sonhos, mas pobre em ação? Sem estratégia, planos não passam de ilusões. É preciso ter RAIZ.</p>
+                 </div>
 
               <Link
                 data-aos="fade-right"
@@ -304,9 +308,9 @@ export default function Home() {
           </div>
         </section>
         <section className="bg-[#420101] flex flex-col items-center   w-[100vw]">
-           <h2 className="text-3xl font-semibold  sm:w-[50ch] text-center mt-8 mb-5">Habilidades e resultados que a Mentoria Raiz vai desbloquear em você:</h2>
+           <h2 className="text-3xl font-semibold  sm:w-[50ch] text-center mt-12 mb-11">Habilidades e resultados que a Mentoria Raiz vai desbloquear em você:</h2>
             
-           <div className=" flex flex-wrap justify-center gap-10 mb-14">
+           <div className=" flex flex-wrap justify-center gap-24 mb-14">
 
              <div className="flex flex-col items-start sm:w-[310px] sm:h-[300px] p-3 pb-6 sm:p-2 bg-gradient-to-br from-[#300202] via-[#530707] to-[#300202] mx-[20px] border-1 border-[rgb(254,195,0,50%)] rounded-3xl pl-3 ">
 
