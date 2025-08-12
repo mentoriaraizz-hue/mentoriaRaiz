@@ -41,7 +41,8 @@ export default function Home() {
                 Mentoria com Thalyta Eloah
               </p>
 
-                 <div className=" sm:w-[450px] mb-8">
+                 <div data-aos="fade-right"
+                data-aos-delay="300" className=" sm:w-[450px] mb-8">
                     <p className="text-[12px] font-semibold text-left ">A antítese da coragem é a covardia. Você pode se orgulhar do que construiu até hoje, mas o meu objetivo é fazer você ter mais orgulho do seu futuro do que do seu passado. Criei essa mentoria para os inquietos, para os inconformados, para os que se movem e querem protagonizar a transformação que o seu negócio precisa para obter os resultados que você deseja. De que adianta ser rico em sonhos, mas pobre em ação? Sem estratégia, planos não passam de ilusões. É preciso ter RAIZ.</p>
                  </div>
 
@@ -188,8 +189,8 @@ export default function Home() {
           </div>
           
           
-            <img
-           
+            <img data-aos="fade-right"
+                data-aos-delay="300"
             className="max-h-[500px] w- sm:h-[500px] max-w-[450px] w-full object-contain "
             src="mentora.webp"
             alt="mentora thalyta"
@@ -200,22 +201,22 @@ export default function Home() {
                 data-aos-delay="450">Trajetoria da mentora</h2>
             
               <div className="flex flex-wrap justify-around text-left my-5 "
-              delay="850">
+              delay="350">
                  <CardsMenores
               effect="fade-left"
-              delay="850"
+              delay="450"
               tiltle="+ 10 anos de experiência no Direito e no Empreendedorismo. Especialista em transformar conhecimento jurídico e visão de negócios em resultados reais!"/>
                <CardsMenores
               effect="fade-left"
-              delay="850"
+              delay="550"
               tiltle="Advogada e consultora estratégica de empresas e empresários."/>
                <CardsMenores
               effect="fade-left"
-              delay="850"
+              delay="650"
               tiltle="Atuação no setor corporativo, incluindo jurídico-comercial de empresa de benefícios e jurídico-consultivo de instituição bancária."/>
                <CardsMenores
               effect="fade-left"
-              delay="850"
+              delay="750"
               tiltle="Formação acadêmica e docente pela EMERJ – Escola da Magistratura do Estado do Rio de Janeiro."/>
            
               </div>
@@ -312,7 +313,8 @@ export default function Home() {
             
            <div className=" flex flex-wrap justify-center gap-24 mb-14">
 
-             <div className="flex flex-col items-start sm:w-[310px] sm:h-[300px] p-3 pb-6 sm:p-2 bg-gradient-to-br from-[#300202] via-[#530707] to-[#300202] mx-[20px] border-1 border-[rgb(254,195,0,50%)] rounded-3xl pl-3 ">
+             <div data-aos="fade-right"
+                data-aos-delay="300" className="flex flex-col items-start sm:w-[310px] sm:h-[300px] p-3 pb-6 sm:p-2 bg-gradient-to-br from-[#300202] via-[#530707] to-[#300202] mx-[20px] border-1 border-[rgb(254,195,0,50%)] rounded-3xl pl-3 ">
 
              <h3 className="text-[20px] sm:text-[20px] font-semibold text-left mt-4 mb-4">
               Raiz do Negócio — Fundamentos Sólidos para Crescer
@@ -326,7 +328,8 @@ export default function Home() {
             </ul>
            </div>
 
-             <div className="flex flex-col items-start sm:w-[310px] sm:h-[300px] p-3 pb-6 sm:p-2 bg-gradient-to-br from-[#300202] via-[#530707] to-[#300202]  border-1 border-[rgb(254,195,0,50%)] rounded-3xl pl-3">
+             <div data-aos="fade-right"
+                data-aos-delay="400" className="flex flex-col items-start sm:w-[310px] sm:h-[300px] p-3 pb-6 sm:p-2 bg-gradient-to-br from-[#300202] via-[#530707] to-[#300202]  border-1 border-[rgb(254,195,0,50%)] rounded-3xl pl-3">
 
              <h3 className="text-[20px] sm:text-[20px] font-semibold text-left mt-4 mb-4">
              Estrutura & Planejamento Estratégico
@@ -340,7 +343,8 @@ export default function Home() {
             </ul>
            </div>
 
-             <div className="flex flex-col items-start sm:w-[310px] sm:h-[300px] p-3 pb-6 sm:p-2 bg-gradient-to-br from-[#300202] via-[#530707] to-[#300202]  border-1 border-[rgb(254,195,0,50%)] rounded-3xl pl-3">
+             <div data-aos="fade-right"
+                data-aos-delay="500" className="flex flex-col items-start sm:w-[310px] sm:h-[300px] p-3 pb-6 sm:p-2 bg-gradient-to-br from-[#300202] via-[#530707] to-[#300202]  border-1 border-[rgb(254,195,0,50%)] rounded-3xl pl-3">
 
              <h3 className="text-[20px] sm:text-[20px] font-semibold text-left mt-4 mb-4">
               Precificação Inteligente & Sustentável
@@ -354,7 +358,8 @@ export default function Home() {
             </ul>
            </div>
 
-             <div className="flex flex-col items-start sm:w-[310px] sm:h-[300px] p-3 pb-6 sm:p-2 bg-gradient-to-br from-[#300202] via-[#530707] to-[#300202]  border-1 border-[rgb(254,195,0,50%)] rounded-3xl pl-3">
+             <div data-aos="fade-right"
+                data-aos-delay="600" className="flex flex-col items-start sm:w-[310px] sm:h-[300px] p-3 pb-6 sm:p-2 bg-gradient-to-br from-[#300202] via-[#530707] to-[#300202]  border-1 border-[rgb(254,195,0,50%)] rounded-3xl pl-3">
 
              <h3 className="text-[20px] sm:text-[20px] font-semibold text-left mt-4 mb-4">
               Estratégias de Marketing & Prospecção Efetiva
@@ -368,7 +373,8 @@ export default function Home() {
             </ul>
            </div>
 
-             <div className="flex flex-col items-start sm:w-[310px] sm:h-[300px] p-3 pb-6 sm:p-2 bg-gradient-to-br from-[#300202] via-[#530707] to-[#300202]  border-1 border-[rgb(254,195,0,50%)] rounded-3xl pl-3">
+             <div data-aos="fade-right"
+                data-aos-delay="700" className="flex flex-col items-start sm:w-[310px] sm:h-[300px] p-3 pb-6 sm:p-2 bg-gradient-to-br from-[#300202] via-[#530707] to-[#300202]  border-1 border-[rgb(254,195,0,50%)] rounded-3xl pl-3">
 
              <h3 className="text-[20px] sm:text-[20px] font-semibold text-left mt-4 mb-4">
               Realidade do Mercado — Crescimento & Blindagem

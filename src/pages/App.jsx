@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
      AOS.init({
        duration: 1000, // duração da animação (ms)
-       once: true,     // anima apenas uma vez
+       once: false,     // anima apenas uma vez
      });
    }, []);
 
