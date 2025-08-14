@@ -335,12 +335,12 @@ export default function Precheckout() {
               </div>
 
               {/* Form Sócios */}
-              <div className="w-1/2 pl-4 overflow-hidden">
+              <div className="w-1/2 pl-4 overflow-auto">
                 <h2 className="text-xl font-semibold mb-4">
                   Preencha os dados dos sócios:
                 </h2>
                 <form
-                  className="space-y-4 px-6  overflow-y-auto h-[80%]"
+                  className="space-y-4 px-6  overflow-y-auto h-[100%] mb-[200px]"
                   onSubmit={handleSubmit}
                 >
                   <input
