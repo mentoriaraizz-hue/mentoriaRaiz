@@ -12,18 +12,22 @@ export default function Precheckout() {
   const [whatsapp, setWhatsapp] = useState("");
   const [profissao, setProfissao] = useState("");
   const [empresa, setEmpresa] = useState("");
-  const [outraProfissao, setOutraProfissao] = useState("");
+
 
   // Campos Sócios
   const [nomeSocio1, setNomeSocio1] = useState("");
   const [emailSocio1, setEmailSocio1] = useState("");
+  const [idadeSocio1, setIdadeSocio1] = useState("");
+  const [whatsappSocio1, setWhatsappSocio1] = useState("");
+  const [profissaoSocio1, setProfissaoSocio1] = useState("");
+
   const [nomeSocio2, setNomeSocio2] = useState("");
   const [emailSocio2, setEmailSocio2] = useState("");
-  const [whatsappSocio, setWhatsappSocio] = useState("");
+   const [idadeSocio2, setIdadeSocio2] = useState("");
   const [whatsappSocio2, setWhatsappSocio2] = useState("");
-  const [profissaoSocio, setProfissaoSocio] = useState("");
+  const [profissaoSocio2, setProfissaoSocio2] = useState("");
   const [empresaSocio, setEmpresaSocio] = useState("");
-  const [outraProfissaoSocio, setOutraProfissaoSocio] = useState("");
+ 
 
   useEffect(() => {
     document.body.style.overflow = openForm ? "hidden" : "auto";
@@ -39,15 +43,18 @@ export default function Precheckout() {
     setWhatsapp("");
     setProfissao("");
     setEmpresa("");
-    setOutraProfissao("");
+    setProfissao("");
     setNomeSocio1("");
     setEmailSocio1("");
+    setIdadeSocio1("");
+    setIdadeSocio2("");
     setNomeSocio2("");
     setEmailSocio2("");
-    setWhatsappSocio("");
-    setProfissaoSocio("");
+    setWhatsappSocio1("");
+    setProfissaoSocio1("");
+    setProfissaoSocio2("");
     setEmpresaSocio("");
-    setOutraProfissaoSocio("");
+
   };
 
   const handleSubmit = async (e) => {
@@ -62,27 +69,27 @@ export default function Precheckout() {
         idade,
         email,
         whatsapp,
-        profissao: profissao === "outro" ? outraProfissao : profissao,
+        profissao: profissao ,
         empresa: profissao === "empreendedor" ? empresa : "",
       };
-    } else if (tipo === "socios") {
-      data = {
-        tipo,
-        nome: nomeSocio1,
-        email: emailSocio1,
-        whatsapp: whatsappSocio,
-        whatsapp2: whatsappSocio2,
-        profissao:
-          profissaoSocio === "outro" ? outraProfissaoSocio : profissaoSocio,
-        empresa: profissaoSocio === "empreendedor" ? empresaSocio : "",
-        socios: [
-          { nome: nomeSocio1, email: emailSocio1 },
-          ...(nomeSocio2 || emailSocio2 || whatsappSocio2
-            ? [{ nome: nomeSocio2, email: emailSocio2, whatsappSocio2 }]
-            : []),
-        ],
-      };
-    } else {
+   } else if (tipo === "socios") {
+  data = {
+    tipo,
+    nomeSocio1: nomeSocio1,
+    emailSocio1: emailSocio1,
+    idadeSocio1: idadeSocio1,
+    whatsappSocio1: whatsappSocio1,
+    profissaoSocio1: profissaoSocio1,
+    nomeSocio2: nomeSocio2,
+    idadeSocio2: idadeSocio2,
+    profissaoSocio2: profissaoSocio2,
+    emailSocio2: emailSocio2,
+    whatsappSocio2: whatsappSocio2,
+    empresa: profissaoSocio1 === "empreendedor" ? empresaSocio : "",
+  
+  };
+}
+ else {
       alert("Tipo de inscrição inválido");
       return;
     }
@@ -344,6 +351,14 @@ export default function Precheckout() {
                     onChange={(e) => setNomeSocio1(e.target.value)}
                     required
                   />
+                   <input
+                    type="text"
+                    placeholder="Idade"
+                    className="w-full border p-2"
+                    value={idadeSocio1}
+                    onChange={(e) => setIdadeSocio1(e.target.value)}
+                    required
+                  />
                   <input
                     type="email"
                     placeholder="E-mail do sócio 1"
@@ -352,46 +367,61 @@ export default function Precheckout() {
                     onChange={(e) => setEmailSocio1(e.target.value)}
                     required
                   />
+                    <input
+                      type="text"
+                      placeholder="WhatsApp com DDD"
+                      className="w-full border p-2"
+                      value={whatsappSocio1}
+                      onChange={(e) => setWhatsappSocio1(e.target.value)}
+                      required
+                    />
+                    <input type="text"
+                      value={profissaoSocio1}
+                      placeholder="Profissão"
+                      onChange={(e) => setProfissaoSocio1(e.target.value)}
+                      className="w-full border p-2"
+                      required
+                      >  
                   <input
                     type="text"
                     placeholder="Nome do sócio 2"
                     className="w-full border p-2"
                     value={nomeSocio2}
                     onChange={(e) => setNomeSocio2(e.target.value)}
-                  />
+                    />
+                   <input
+                    type="text"
+                    placeholder="Idade"
+                    className="w-full border p-2"
+                    value={idadeSocio2}
+                    onChange={(e) => setIdadeSocio2(e.target.value)}
+                    required
+                    />
                   <input
                     type="email"
                     placeholder="E-mail do sócio 2"
                     className="w-full border p-2"
                     value={emailSocio2}
                     onChange={(e) => setEmailSocio2(e.target.value)}
-                  />
+                    />
                   <input
                     type="text"
-                    placeholder="WhatsApp com DDD"
-                    className="w-full border p-2"
-                    value={whatsappSocio}
-                    onChange={(e) => setWhatsappSocio(e.target.value)}
-                    required
-                  />
-                  <input
-                    type="text"
-                    placeholder="WhatsApp com DDD"
+                    placeholder="WhatsApp do socio 2 com DDD"
                     className="w-full border p-2"
                     value={whatsappSocio2}
                     onChange={(e) => setWhatsappSocio2(e.target.value)}
                     required
-                  />
-                  <input type="text"
-                    value={profissaoSocio}
+                    />
+                   <input type="text"
+                    value={profissaoSocio2}
                     placeholder="Profissão"
-                    onChange={(e) => setProfissaoSocio(e.target.value)}
+                    onChange={(e) => setProfissaoSocio2(e.target.value)}
                     className="w-full border p-2"
                     required
-                  >  
+                  />  
                   </input>
                   {["empreendedor", "empresário"].includes(
-                    profissaoSocio.trim().toLowerCase()
+                    profissaoSocio1.trim().toLowerCase()
                   ) && (
                     <input
                       type="text"
