@@ -340,7 +340,7 @@ export default function Precheckout() {
                   Preencha os dados dos sócios:
                 </h2>
                 <form
-                  className="space-y-4 px-4 overflow-y-auto h-[80%]"
+                  className="space-y-4 px-6  overflow-y-auto h-[80%]"
                   onSubmit={handleSubmit}
                 >
                   <input
@@ -381,7 +381,7 @@ export default function Precheckout() {
                       onChange={(e) => setProfissaoSocio1(e.target.value)}
                       className="w-full border p-2"
                       required
-                      >  
+                      />  
                   <input
                     type="text"
                     placeholder="Nome do sócio 2"
@@ -419,7 +419,7 @@ export default function Precheckout() {
                     className="w-full border p-2"
                     required
                   />  
-                  </input>
+             
                   {["empreendedor", "empresário"].includes(
                     profissaoSocio1.trim().toLowerCase()
                   ) && (
@@ -430,8 +430,8 @@ export default function Precheckout() {
                       value={empresaSocio}
                       onChange={(e) => setEmpresaSocio(e.target.value)}
                     />
-                  )}
                   
+                  )}
                   <button
                     type="submit"
                     className="w-full bg-yellow-600 text-white p-2 mb-[150px] rounded"
