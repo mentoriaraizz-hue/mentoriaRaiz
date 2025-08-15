@@ -58,46 +58,46 @@ export default function AdminDashboard() {
       </form>
 
     <div className="p-4 overflow-x-auto">
-  <table className="min-w-full border border-gray-300">
+  <table className="min-w-full border">
     <thead>
-      <tr className="bg-gray-200">
-        <th className="px-4 py-2 border">Tipo</th>
-        <th className="px-4 py-2 border">Nome</th>
-        <th className="px-4 py-2 border">Email</th>
-        <th className="px-4 py-2 border">Idade</th>
-        <th className="px-4 py-2 border">Profissão</th>
-        <th className="px-4 py-2 border">Empresa</th>
-        <th className="px-4 py-2 border">Payment ID</th>
-        <th className="px-4 py-2 border">Valor</th>
-        <th className="px-4 py-2 border">Status</th>
+      <tr className="">
+        <th className="px-4 py-2 border  border-black">Tipo</th>
+        <th className="px-4 py-2 border  border-black">Nome</th>
+        <th className="px-4 py-2 border  border-black">Email</th>
+        <th className="px-4 py-2 border  border-black">Idade</th>
+        <th className="px-4 py-2 border  border-black">Profissão</th>
+        <th className="px-4 py-2 border  border-black">Empresa</th>
+        <th className="px-4 py-2 border  border-black">Payment ID</th>
+        <th className="px-4 py-2 border  border-black">Valor</th>
+        <th className="px-4 py-2 border  border-black">Status</th>
       </tr>
     </thead>
     <tbody>
       {dados?.inscritos?.map((i) => (
         <tr key={i._id} className="text-center border">
-          <td className="px-4 py-2 border">{i.tipo}</td>
+          <td className="px-4 py-2 border border-black">{i.tipo}</td>
 
           {i.tipo === "individual" ? (
             <>
-              <td className="px-4 py-2 border">{i.nome}</td>
-              <td className="px-4 py-2 border">{i.email}</td>
-              <td className="px-4 py-2 border">{i.idade}</td>
-              <td className="px-4 py-2 border">{i.profissao}</td>
-              <td className="px-4 py-2 border">{i.empresa}</td>
-              <td className="px-4 py-2 border">{i.paymentId}</td>
-              <td className="px-4 py-2 border">{i.valor}</td>
-              <td className="px-4 py-2 border">{i.status}</td>
+              <td className="px-4 py-2 border  border-black">{i.nome}</td>
+              <td className="px-4 py-2 border  border-black">{i.email}</td>
+              <td className="px-4 py-2 border  border-black">{i.idade}</td>
+              <td className="px-4 py-2 border  border-black">{i.profissao}</td>
+              <td className="px-4 py-2 border  border-black">{i.empresa}</td>
+              <td className="px-4 py-2 border  border-black">{i.paymentId}</td>
+              <td className="px-4 py-2 border  border-black">{i.valor}</td>
+              <td className="px-4 py-2 border  border-black">{i.status}</td>
             </>
           ) : (
             <>
-              <td className="px-4 py-2 border">{i.nomeSocio1}, {i.nomeSocio2}</td>
-              <td className="px-4 py-2 border">{i.emailSocio1}, {i.emailSocio2}</td>
-              <td className="px-4 py-2 border">{i.idadeSocio1}, {i.idadeSocio2}</td>
-              <td className="px-4 py-2 border">{i.profissaoSocio1}, {i.profissaoSocio2}</td>
-              <td className="px-4 py-2 border">{i.empresaSocio}</td>
-              <td className="px-4 py-2 border">{i.paymentId}</td>
-              <td className="px-4 py-2 border">{i.valor}</td>
-              <td className="px-4 py-2 border">{i.status}</td>
+              <td className="px-4 py-2 border  border-black">{i.nomeSocio1}, {i.nomeSocio2}</td>
+              <td className="px-4 py-2 border  border-black">{i.emailSocio1}, {i.emailSocio2}</td>
+              <td className="px-4 py-2 border  border-black">{i.idadeSocio1}, {i.idadeSocio2}</td>
+              <td className="px-4 py-2 border  border-black">{i.profissaoSocio1}, {i.profissaoSocio2}</td>
+              <td className="px-4 py-2 border  border-black">{i.empresaSocio}</td>
+              <td className="px-4 py-2 border  border-black">{i.paymentId}</td>
+              <td className="px-4 py-2 border  border-black">{i.valor}</td>
+              <td className="px-4 py-2 border  border-black">{i.status}</td>
             </>
           )}
         </tr>
