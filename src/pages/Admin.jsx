@@ -57,80 +57,55 @@ export default function AdminDashboard() {
         </button>
       </form>
 
-      <div className="p-4">
-        {dados?.inscritos?.map((i) => (
-          <div key={i._id} className="bg-white text-black p-2 mb-2 rounded">
-            <p>
-              <strong>Tipo:</strong> {i.tipo}
-            </p>
+    <div className="p-4 overflow-x-auto">
+  <table className="min-w-full border border-gray-300">
+    <thead>
+      <tr className="bg-gray-200">
+        <th className="px-4 py-2 border">Tipo</th>
+        <th className="px-4 py-2 border">Nome</th>
+        <th className="px-4 py-2 border">Email</th>
+        <th className="px-4 py-2 border">Idade</th>
+        <th className="px-4 py-2 border">Profissão</th>
+        <th className="px-4 py-2 border">Empresa</th>
+        <th className="px-4 py-2 border">Payment ID</th>
+        <th className="px-4 py-2 border">Valor</th>
+        <th className="px-4 py-2 border">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {dados?.inscritos?.map((i) => (
+        <tr key={i._id} className="text-center border">
+          <td className="px-4 py-2 border">{i.tipo}</td>
 
-            {i.tipo === "individual" && (
-              <>
-                <p>
-                  <strong>Nome:</strong> {i.nome}
-                </p>
-                <p>
-                  <strong>Email:</strong> {i.email}
-                </p>
-                <p>
-                  <strong>Idade:</strong> {i.idade}
-                </p>
-                <p>
-                  <strong>Profissão:</strong> {i.profissao}
-                </p>
-                <p>
-                  <strong>Empresa:</strong> {i.empresa}
-                </p>
-                <p>
-                  <strong>paymentId:</strong> {i.paymentId}
-                </p>
-                <p>
-                  <strong>Valor:</strong> {i.valor}
-                </p>
-                <p>
-                  <strong>Status:</strong> {i.status}
-                </p>
-              </>
-            )}
+          {i.tipo === "individual" ? (
+            <>
+              <td className="px-4 py-2 border">{i.nome}</td>
+              <td className="px-4 py-2 border">{i.email}</td>
+              <td className="px-4 py-2 border">{i.idade}</td>
+              <td className="px-4 py-2 border">{i.profissao}</td>
+              <td className="px-4 py-2 border">{i.empresa}</td>
+              <td className="px-4 py-2 border">{i.paymentId}</td>
+              <td className="px-4 py-2 border">{i.valor}</td>
+              <td className="px-4 py-2 border">{i.status}</td>
+            </>
+          ) : (
+            <>
+              <td className="px-4 py-2 border">{i.nomeSocio1}, {i.nomeSocio2}</td>
+              <td className="px-4 py-2 border">{i.emailSocio1}, {i.emailSocio2}</td>
+              <td className="px-4 py-2 border">{i.idadeSocio1}, {i.idadeSocio2}</td>
+              <td className="px-4 py-2 border">{i.profissaoSocio1}, {i.profissaoSocio2}</td>
+              <td className="px-4 py-2 border">{i.empresaSocio}</td>
+              <td className="px-4 py-2 border">{i.paymentId}</td>
+              <td className="px-4 py-2 border">{i.valor}</td>
+              <td className="px-4 py-2 border">{i.status}</td>
+            </>
+          )}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
 
-            {i.tipo === "socios" && (
-              <>
-                <p>
-                  <strong>Sócios:</strong>
-                </p>
-                {i.socios?.map((socio, idx) => (
-                  <div key={idx} className="ml-4 mb-1">
-                    <p>
-                      <strong>Nome do sócio:</strong> {i.socio.nomeSocio1}
-                    </p>
-                    <p>
-                      <strong>Nome do sócio2:</strong> {i.socio.nomeSocio2}
-                    </p>
-                    <p>
-                      <strong>Email do sócio:</strong> {i.socio.emailSocio1}
-                    </p>
-                    <p>
-                      <strong>Email do sócio2:</strong> {i.socio. emailSocio2}
-                    </p>
-                    <p>
-                      <strong>Whatszap do sócio:</strong> {i.socio.whatsappSocio1}
-                    </p>
-                    <p>
-                      <strong>Email do sócio2:</strong> {i.socio.whatsappSocio2}
-                    </p>
-                    <p>
-                      <strong>Empresa:</strong> {i.socio.empresaSocio}
-                    </p>
-                    <p>
-                      <strong>Profissão:</strong> {i.socio. profissaoSocio}
-                    </p>
-                  </div>
-                ))}
-              </>
-            )}
-          </div>
-        ))}
-      </div>
     </div>
   );
 }

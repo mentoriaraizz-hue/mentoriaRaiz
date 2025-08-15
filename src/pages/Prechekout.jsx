@@ -272,7 +272,7 @@ export default function Precheckout() {
                 <h2 className="text-xl font-semibold mb-4">
                   Preencha seus dados:
                 </h2>
-                <form className="space-y-4 overflow-hidden" onSubmit={handleSubmit}>
+                <form className="space-y-4 px-7 py-2.5 overflow-hidden" onSubmit={handleSubmit}>
                   <input
                     type="text"
                     placeholder="Nome completo"
@@ -340,7 +340,7 @@ export default function Precheckout() {
                   Preencha os dados dos sócios:
                 </h2>
                 <form
-                  className="space-y-4 px-6  overflow-y-auto h-[100%] mb-[200px]"
+                  className="space-y-4 px-7 py-2.5  overflow-y-auto h-[100%] mb-[260px]"
                   onSubmit={handleSubmit}
                 >
                   <input
