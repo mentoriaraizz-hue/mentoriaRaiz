@@ -75,154 +75,6 @@ export default function Home() {
             />
           </div>
         </header>
-        <section className="bg-[#350e0e] text-center flex flex-col items-center px-2.5 ">
-          <h2
-            data-aos="fade-left"
-            className="font-semibold text-[22px] sm:text-3xl mt-8 mb-8 lg:w-[35ch]"
-          >
-            Destravando a sua jornada empreendedora com estratégia, clareza,
-            consistência, identidade e propósito!
-          </h2>
-
-          <div className="text-left text-[20px] Lg:w-[70vw] text-[#dddada] ">
-            <p data-aos="fade-right" className="lg:w-[75ch] mb-14">
-              Empreender exige mais do que técnica. É sobre decisão, estratégia
-              e coragem. A mentoria Raiz nasce como um espaço seguro, prático e
-              profundo, para quem quer empreender com estratégia e propósito,
-              sem perder a lucidez da vida real.
-            </p>
-            <p data-aos="fade-left" className="lg:w-[75ch] mb-14">
-              Aqui, vamos além do "como fazer". Vamos entender o "por que
-              fazer", o "o que evitar" e principalmente: "como se sustentar no
-              processo". Essa mentoria é para quem cansou de conteúdo raso,
-              promessas milagrosas e fórmulas prontas. É para quem está
-              pronto(a) para construir com identidade, estratégia e verdade.
-            </p>
-            <p data-aos="fade-right" className="lg:w-[75ch] mb-14">
-              Durante 3 meses, você estará ao lado de uma mentora que conhece a
-              base do direito e a alma do empreendedorismo. Chegou a hora de dar
-              estrutura ao que você já carrega no peito: sua vocação.
-            </p>
-          </div>
-        </section>
-        <section
-          id="mentora"
-          className=" flex flex-col items-center  pt-20 pb-9  bg-gradient-to-br from-[rgb(53,14,14)] via-[#630303] to-[#350e0e]"
-        >
-         <div className="flex flex-col sm:flex-row justify-around items-center sm:gap-[7em]">
-           <div className=" sm:w-[50%] px-2.5">
-            <h3
-              data-aos="fade-right"
-              data-aos-delay="150"
-              className=" inline-block text-[#FEC300] text-[12px] p-[8px] mb-4 rounded-[15px] transition-all duration-100 ease-in-out border-1 border-[#FEC300] bg-[rgb(254,195,0,10%)] hover:bg-[rgb(254,195,0,25%)] focus:bg-[rgb(254,195,0,25%)]"
-            >
-              Sobre a mentora
-            </h3>
-
-            <h2
-              data-aos="fade-right"
-              data-aos-delay="20"
-              className="text-4xl font-semibold mb-5"
-            >
-              Thalyta Eloah
-            </h2>
-
-            <p
-              data-aos="fade-right"
-              data-aos-delay="80"
-              className="mb-5 border-l-3 border-[#FEC300] sm:ml-3 p-3 text-[18px] text-[#FEC300] sm:w-[40ch]  "
-            >
-              "Raiz no Direito. Realidade no Empreendedorismo. Verdade na
-              Caminhada."
-            </p>
-
-            <div className="text-left  sm:w-[70vw] text-[#ffffff] sm:ml-3">
-              <p
-                data-aos="fade-right"
-                data-aos-delay="150"
-                className="sm:w-[75ch] mb-5"
-              >
-                {" "}
-                Advogada, professora, mentora, estrategista de negócios e
-                apaixonada por transformação real. Thalyta Eloah construiu sua
-                trajetória sem atalhos, enfrentando os desafios da advocacia
-                empreendedora com coragem, foco e muito pé no chão.
-              </p>
-
-              <p
-                data-aos="fade-right"
-                data-aos-delay="250"
-                className="sm:w-[75ch] mb-5"
-              >
-                {" "}
-                Conhecida por sua abordagem direta, ética e profundamente
-                humana, ela tem sido referência para advogados e empreendedores
-                que não querem apenas "crescer rápido", mas crescer com
-                estrutura, com senso de responsabilidade e com autenticidade.
-              </p>
-
-              <p
-                data-aos="fade-right"
-                data-aos-delay="350"
-                className="sm:w-[75ch] mb-5"
-              >
-                {" "}
-                Com experiência prática em diferentes áreas do Direito, forte
-                atuação com empresas e empresários e uma escuta atenta às dores
-                e dúvidas da nova geração, Thalyta desenvolveu a mentoria Raiz
-                como resposta a uma necessidade urgente: ajudar empreendedores a
-                construir negócios sustentáveis, conscientes e coerentes com
-                seus valores.
-              </p>
-
-              <p
-                data-aos="fade-right"
-                data-aos-delay="450"
-                className="sm:w-[75ch] mb-10"
-              >
-                {" "}
-                Se você está buscando uma mentora que fala a língua da prática,
-                que respeita seus processos e que tem coragem de te puxar pra
-                cima — sem ilusão —, você está no lugar certo.
-              </p>
-            </div>
-          </div>
-          
-          
-            <img data-aos="fade-right"
-                data-aos-delay="300"
-            className="max-h-[500px] w- sm:h-[500px] max-w-[450px] w-full object-contain "
-            src="mentora.webp"
-            alt="mentora thalyta"
-          />
-         </div>
-         <div className="flex flex-col flex-wrap items-center">
-              <h2 className="text-3xl font-semibold m-6 mb-7" data-aos="fade-right"
-                data-aos-delay="450">Trajetoria da mentora</h2>
-            
-              <div className="flex flex-wrap justify-around text-left my-5 "
-              delay="350">
-                 <CardsMenores
-              effect="fade-left"
-              delay="450"
-              tiltle="+ 10 anos de experiência no Direito e no Empreendedorismo. Especialista em transformar conhecimento jurídico e visão de negócios em resultados reais!"/>
-               <CardsMenores
-              effect="fade-left"
-              delay="550"
-              tiltle="Advogada e consultora estratégica de empresas e empresários."/>
-               <CardsMenores
-              effect="fade-left"
-              delay="650"
-              tiltle="Atuação no setor corporativo, incluindo jurídico-comercial de empresa de benefícios e jurídico-consultivo de instituição bancária."/>
-               <CardsMenores
-              effect="fade-left"
-              delay="750"
-              tiltle="Formação acadêmica e docente pela EMERJ – Escola da Magistratura do Estado do Rio de Janeiro."/>
-           
-              </div>
-         </div>
-        </section>
-
         <section
           className="bg-[#4d0808] text-center pt-15 pb-15 px-2"
           id="comoFunciona"
@@ -390,6 +242,157 @@ export default function Home() {
 
            </div>
         </section>
+
+        
+        <section
+          id="mentora"
+          className=" flex flex-col items-center  pt-20 pb-9  bg-gradient-to-br from-[rgb(53,14,14)] via-[#630303] to-[#350e0e]"
+        >
+         <div className="flex flex-col sm:flex-row justify-around items-center sm:gap-[7em]">
+           <div className=" sm:w-[50%] px-2.5">
+            <h3
+              data-aos="fade-right"
+              data-aos-delay="150"
+              className=" inline-block text-[#FEC300] text-[12px] p-[8px] mb-4 rounded-[15px] transition-all duration-100 ease-in-out border-1 border-[#FEC300] bg-[rgb(254,195,0,10%)] hover:bg-[rgb(254,195,0,25%)] focus:bg-[rgb(254,195,0,25%)]"
+            >
+              Sobre a mentora
+            </h3>
+
+            <h2
+              data-aos="fade-right"
+              data-aos-delay="20"
+              className="text-4xl font-semibold mb-5"
+            >
+              Thalyta Eloah
+            </h2>
+
+            <p
+              data-aos="fade-right"
+              data-aos-delay="80"
+              className="mb-5 border-l-3 border-[#FEC300] sm:ml-3 p-3 text-[18px] text-[#FEC300] sm:w-[40ch]  "
+            >
+              "Raiz no Direito. Realidade no Empreendedorismo. Verdade na
+              Caminhada."
+            </p>
+
+            <div className="text-left  sm:w-[70vw] text-[#ffffff] sm:ml-3">
+              <p
+                data-aos="fade-right"
+                data-aos-delay="150"
+                className="sm:w-[75ch] mb-5"
+              >
+                {" "}
+                Advogada, professora, mentora, estrategista de negócios e
+                apaixonada por transformação real. Thalyta Eloah construiu sua
+                trajetória sem atalhos, enfrentando os desafios da advocacia
+                empreendedora com coragem, foco e muito pé no chão.
+              </p>
+
+              <p
+                data-aos="fade-right"
+                data-aos-delay="250"
+                className="sm:w-[75ch] mb-5"
+              >
+                {" "}
+                Conhecida por sua abordagem direta, ética e profundamente
+                humana, ela tem sido referência para advogados e empreendedores
+                que não querem apenas "crescer rápido", mas crescer com
+                estrutura, com senso de responsabilidade e com autenticidade.
+              </p>
+
+              <p
+                data-aos="fade-right"
+                data-aos-delay="350"
+                className="sm:w-[75ch] mb-5"
+              >
+                {" "}
+                Com experiência prática em diferentes áreas do Direito, forte
+                atuação com empresas e empresários e uma escuta atenta às dores
+                e dúvidas da nova geração, Thalyta desenvolveu a mentoria Raiz
+                como resposta a uma necessidade urgente: ajudar empreendedores a
+                construir negócios sustentáveis, conscientes e coerentes com
+                seus valores.
+              </p>
+
+              <p
+                data-aos="fade-right"
+                data-aos-delay="450"
+                className="sm:w-[75ch] mb-10"
+              >
+                {" "}
+                Se você está buscando uma mentora que fala a língua da prática,
+                que respeita seus processos e que tem coragem de te puxar pra
+                cima — sem ilusão —, você está no lugar certo.
+              </p>
+            </div>
+          </div>
+          
+          
+            <img data-aos="fade-right"
+                data-aos-delay="300"
+            className="max-h-[500px] w- sm:h-[500px] max-w-[450px] w-full object-contain "
+            src="mentora.webp"
+            alt="mentora thalyta"
+          />
+         </div>
+         <div className="flex flex-col flex-wrap items-center">
+              <h2 className="text-3xl font-semibold m-6 mb-7" data-aos="fade-right"
+                data-aos-delay="450">Trajetoria da mentora</h2>
+            
+              <div className="flex flex-wrap justify-around text-left my-5 "
+              delay="350">
+                 <CardsMenores
+              effect="fade-left"
+              delay="450"
+              tiltle="+ 10 anos de experiência no Direito e no Empreendedorismo. Especialista em transformar conhecimento jurídico e visão de negócios em resultados reais!"/>
+               <CardsMenores
+              effect="fade-left"
+              delay="550"
+              tiltle="Advogada e consultora estratégica de empresas e empresários."/>
+               <CardsMenores
+              effect="fade-left"
+              delay="650"
+              tiltle="Atuação no setor corporativo, incluindo jurídico-comercial de empresa de benefícios e jurídico-consultivo de instituição bancária."/>
+               <CardsMenores
+              effect="fade-left"
+              delay="750"
+              tiltle="Formação acadêmica e docente pela EMERJ – Escola da Magistratura do Estado do Rio de Janeiro."/>
+           
+              </div>
+         </div>
+        </section>
+
+        <section className="bg-[#350e0e] text-center flex flex-col items-center px-2.5 ">
+          <h2
+            data-aos="fade-left"
+            className="font-semibold text-[22px] sm:text-3xl mt-8 mb-8 lg:w-[35ch]"
+          >
+            Destravando a sua jornada empreendedora com estratégia, clareza,
+            consistência, identidade e propósito!
+          </h2>
+
+          <div className="text-left text-[20px] Lg:w-[70vw] text-[#dddada] ">
+            <p data-aos="fade-right" className="lg:w-[75ch] mb-14">
+              Empreender exige mais do que técnica. É sobre decisão, estratégia
+              e coragem. A mentoria Raiz nasce como um espaço seguro, prático e
+              profundo, para quem quer empreender com estratégia e propósito,
+              sem perder a lucidez da vida real.
+            </p>
+            <p data-aos="fade-left" className="lg:w-[75ch] mb-14">
+              Aqui, vamos além do "como fazer". Vamos entender o "por que
+              fazer", o "o que evitar" e principalmente: "como se sustentar no
+              processo". Essa mentoria é para quem cansou de conteúdo raso,
+              promessas milagrosas e fórmulas prontas. É para quem está
+              pronto(a) para construir com identidade, estratégia e verdade.
+            </p>
+            <p data-aos="fade-right" className="lg:w-[75ch] mb-14">
+              Durante 3 meses, você estará ao lado de uma mentora que conhece a
+              base do direito e a alma do empreendedorismo. Chegou a hora de dar
+              estrutura ao que você já carrega no peito: sua vocação.
+            </p>
+          </div>
+        </section>
+
         <section
           id="FAQ"
           className="flex flex-col justify-center items-center pb-10 bg-[#330808]"
